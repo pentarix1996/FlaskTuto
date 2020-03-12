@@ -1,0 +1,17 @@
+<html>
+	<head>
+		{% if title %}
+		<title>{{ title}} - My first Web application</title>
+		{% else %}
+		<title>My first web application</title>
+		{% endif %}
+	</head>
+	<body>
+		<h1>Hello, {{ user.username }}!</h1>
+		{% for post in posts %}
+		<div>
+			<p><b>{{ post.autor.username }} dice:</b> {{ post.body }}</p>
+		</div>
+		{% endfor %}
+	</body>
+</html>
