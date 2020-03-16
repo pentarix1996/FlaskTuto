@@ -12,6 +12,7 @@ Pruebas con Flaks.
 - Instalar la extensión Flask-WTF para los formularios **(pip install flask-wtf)**
 - Instalar la extension Flask-SQLAlcemy para la base de datos **(pip install flask-sqlalchemy)**
 - Instalar la extension Flask-Migrate para la migracion de la base de datos **(pip install flask-migrate)**
+- Tener instalada una base de datos SAQLite **sudo apt install sqlite3** y configurarla con una BBDD.
 
 ### Instalación 🔧
 Direcorio de despliegue con flash: flask_tuto/
