@@ -10,6 +10,8 @@ Pruebas con Flaks.
 - Instalar el módulo de flaks: **pip install Flask**
 - Instalar virtualenv: python3 -m venv my_venv **(Este paso se puede omitir ya que el repositorio viene con un venv previamente instalado)**
 - Instalar la extensión Flask-WTF para los formularios **(pip install flask-wtf)**
+- Instalar la extension Flask-SQLAlcemy para la base de datos **(pip install flask-sqlalchemy)**
+- Instalar la extension Flask-Migrate para la migracion de la base de datos **(pip install flask-migrate)**
 
 ### Instalación 🔧
 Direcorio de despliegue con flash: flask_tuto/
