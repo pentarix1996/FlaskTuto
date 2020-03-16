@@ -6,9 +6,10 @@ Pruebas con Flaks.
 
 ### Pre-requisitos 📋
 - Tener instalado la python en sus máquinas (preferiblemente python3)
-- Instalar el módulo python-pip
-- Instalar el módulo de flaks: pip install Flask
-- Instalar virtualenv: python3 -m venv my_venv (Este paso se puede omitir ya que el repositorio viene con un venv previamente instalado)
+- Instalar el módulo python-pip: **apt-get install python-pip**
+- Instalar el módulo de flaks: **pip install Flask**
+- Instalar virtualenv: python3 -m venv my_venv **(Este paso se puede omitir ya que el repositorio viene con un venv previamente instalado)**
+- Instalar la extensión Flask-WTF para los formularios **(pip install flask-wtf)**
 
 ### Instalación 🔧
 Direcorio de despliegue con flash: flask_tuto/
