@@ -5,11 +5,17 @@
 Pruebas con Flaks.
 
 ### Pre-requisitos 📋
-- Tener instalado la python en sus máquinas (preferiblemente python3)
+- Tener instalado la python en el equipo (preferiblemente python3)
 - Instalar el módulo python-pip: **apt-get install python-pip**
+- Puedes instalar las extensiones automáticamente con el comando **make install**
 - Instalar el módulo de flaks: **pip install Flask**
 - Instalar virtualenv: python3 -m venv my_venv **(Este paso se puede omitir ya que el repositorio viene con un venv previamente instalado)**
 - Instalar la extensión Flask-WTF para los formularios **(pip install flask-wtf)**
+- Instalar la extension Flask-SQLAlcemy para la base de datos **(pip install flask-sqlalchemy)**
+- Instalar la extension Flask-Migrate para la migracion de la base de datos **(pip install flask-migrate)**
+- Tener instalada una base de datos SAQLite **sudo apt install sqlite3** y configurarla con una BBDD.
+❒ En mi caso utilizaré la base de datos **app01.db** situada en la raid del WebService con la tabla users ❒
+- La base de datos fué previamente migrada con los comandos **flask db init** y **flask db migrate -m "users table"** (Solo hay una tabla en la BBDD)
 
 ### Instalación 🔧
 Direcorio de despliegue con flash: flask_tuto/
