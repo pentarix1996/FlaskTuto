@@ -29,12 +29,12 @@ Para ejecutar el entorno primero siga los pasos ingresando en el directorio: **f
 ## Wiki 📖
 
 -- Para que funcionen los siguientes comandos debe estar en el directorio donde se encuentra el Makefile.
--- Para arrancar el WebService puede utilizar el comando **make run** (Ver previamente la info (**make info**))
--- Para obtener información adicional (como variables de entorno requeridas) utilizé el comando **make info**
--- Para instalar directamente todas las extensiones de Flask utilizadas utilizé el comando **make install**
--- Para actualizar algun cambio hecho a la DDBB puede utilizar el comando: **make upgrade**
--- Para volver a una versión anterior de la DDBB puede utilizar el comando: **make db_downgrade**
--- Para listar los usuarios puede utilziar el comando **make show_users**
--- Para listar los posts puede utilziar el comando **make show_posts**
+- Para arrancar el WebService puede utilizar el comando **make run** o **make** (Ver previamente la info (**make info**))
+- Para obtener información adicional (como variables de entorno requeridas) utilizé el comando **make info**
+- Para instalar directamente todas las extensiones de Flask utilizadas utilizé el comando **make install**
+- Para actualizar algun cambio hecho a la DDBB puede utilizar el comando: **make upgrade**
+- Para volver a una versión anterior de la DDBB puede utilizar el comando: **make db_downgrade**
+- Para listar los usuarios puede utilziar el comando **make show_users**
+- Para listar los posts puede utilziar el comando **make show_posts**
 
 Toda la información seguida para realizar este despliegue está basada en el siguiente [tutorial](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world).
