@@ -15,7 +15,7 @@ Pruebas con Flaks.
 - Instalar la extensión Flask-Migrate para la migracion de la base de datos **(pip install flask-migrate)**
 - Instalar la extensión Flask-Login para el inicio de sesiçon de los usuarios **pip install flask-login**
 - Tener instalada una base de datos SAQLite **sudo apt install sqlite3** y configurarla con una BBDD.
-❒ En mi caso utilizaré la base de datos **app01.db** situada en la raid del WebService con la tabla users ❒
+❒ En mi caso utilizaré la base de datos **app01.db** situada en la raid del WebService con la tabla users y posts ❒
 - La base de datos fué previamente migrada con los comandos **flask db init** y **flask db migrate -m "users table"** (Solo hay una tabla en la BBDD)
 
 ### Instalación 🔧
