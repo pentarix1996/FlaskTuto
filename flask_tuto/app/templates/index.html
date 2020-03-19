@@ -1,6 +1,6 @@
 {% extends "base.html" %}
 {% block content %}
-	<h1>Hello, {{ user.username }}!</h1>
+	<h1>Hola, {{ current_user.username }}!</h1>
 	{% for post in posts %}
 	<div>
 		<p><b>{{ post.autor.username }} dice:</b> {{ post.body }}</p>

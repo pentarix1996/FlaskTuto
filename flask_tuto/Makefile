@@ -7,10 +7,10 @@ run:
 
 info:
 	@echo "Exporta las siguientes variables de entorno en tu terminal..."
-	@echo "export FLASK_APP=${APPNAME}"
+	@echo "export FLASK_APP=$(APPNAME)"
 	@echo "export FLASK_ENV=development"
 	@echo "[Opcional] DATABASE_URL=(data_base_url)"
-	@echo "Para un correcto funcionamiento debes ejecutar (La primera vez) el comando: make install
+	@echo "Para un correcto funcionamiento debes ejecutar (La primera vez) el comando: make install"
 
 install:
 	@echo "Instalando Flask..."
@@ -23,6 +23,8 @@ install:
 	@pip install flask-sqlalchemy
 	@echo "Instalando Flask-WTF..."
 	@pip install flask-wtf
+	@echo "Instalando Flask-login..."
+	@pip install flask-login
 
 db_upgrade:
 	@echo "Actualizando la BBDD"
@@ -31,5 +33,11 @@ db_upgrade:
 db_downgrade:
 	@echo "Volviendo a una version anterior de la BBDD"
 	flask db downgrade
+
+show_users:
+	@sqlite3 ./app/app01.db < ./app/users.sql
+
+show_posts:
+	@sqlite3 ./app/app01.db < ./app/posts.sql
 
 .PHONY: all
