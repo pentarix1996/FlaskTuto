@@ -19,7 +19,7 @@ Pruebas con Flaks.
 - La base de datos fué previamente migrada con los comandos **flask db init** y **flask db migrate -m "users table"** (Solo hay una tabla en la BBDD)
 
 ### Instalación 🔧
-Direcorio de despliegue con flash: flask_tuto/
+Directorio de despliegue con flash: flask_tuto/
 
 Instrucciones de ejecución.
 
